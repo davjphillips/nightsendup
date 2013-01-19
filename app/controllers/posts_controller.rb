@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   layout :choose_layout
 
   def index
-    @posts = Post.page(params[:page]).per(10).where(draft:false)
+    @posts = Post.page(params[:page]).per(3).where(draft:false)
 
     respond_to do |format|
       format.html

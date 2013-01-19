@@ -15,7 +15,7 @@ body {
 }
 
 body, textarea, pre, input {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
   line-height: 1.8em;
   font-size: 16px;
   font-weight: 400;
@@ -36,6 +36,8 @@ h1,
 
 p {
   color: #555;
+  font-size:13px;
+  line-height: 18px;
 }
 
 a,
@@ -48,12 +50,12 @@ a:active {
 
 a:hover,
 #admin #published h3 a:hover {
-  color: $linkhover;
+  color: #3B5998;
 }
 
 header {
   width: 162px;
-  border-right: 1px solid #DDD;
+  border-right: 5px solid #C4CDE0;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -85,7 +87,7 @@ header {
 
       &:hover {
         border-color: #777;
-        color: #444;
+        color: #3B5998;
       }
     }
   }
@@ -101,14 +103,14 @@ header {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 12px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #C4CDE0;
   }
 }
 
 #content {
   section {
-    padding: 26px 0 40px 50px;
-    border-bottom: 1px solid #ddd;
+    padding: 26px 0 16px 50px;
+/*    border-bottom: 1px solid #ddd;*/
     position: relative;
   }
 
@@ -140,7 +142,18 @@ code {
 .contain {
   width: 600px;
   position: relative;
+  background: white;
+  border-left: 1px solid #C4CDE0;
+  border-right: 1px solid #C4CDE0;
+  padding: 13px 15px;  
 }
+
+.contain2 {
+  width: 600px;
+  position: relative;
+  background: white;
+}
+
 
 .contain img {
   max-width: 100%;
@@ -224,7 +237,7 @@ code {
 .col h2 a:hover,
 .button:hover,
 .button.secondary:hover {
-  background: $linkhover;
+  background: #3B5998;
   color: #fff;
 }
 

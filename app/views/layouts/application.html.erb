@@ -12,22 +12,18 @@
 <body class="<%= controller_name %> <%= action_name %>">
   <% unless @no_header %>
   <header>
-    <h1><%= link_to CONFIG['title'], root_url %></h1>
-    <span><%= CONFIG['tagline'].html_safe %></span>
+		<center><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c0.45.180.180/s160x160/24944_114285121917454_4977721_a.jpg" class="img-circle"></center>
+    <h2><%= link_to "Awesome Night", root_url %><div class="fb-like" style="margin-left:6px;" data-href="http://www.facebook.com/awesomenight" data-send="false" data-layout="button_count" data-width="162" data-show-faces="false"></div></h2>
+    <span><%= "Nights that end up becoming a crazy story to tell the next day.".html_safe %></span>
     <ul>
-      <% if CONFIG['twitter'] %>
-        <li><%= link_to '@' + CONFIG['twitter'], 'http://twitter.com/' + CONFIG['twitter'] %></li>
-      <% end %>
-      <% if CONFIG['github'] %>
-        <li><%= link_to 'github', 'https://github.com/' + CONFIG['github'] %></li>
-      <% end %>
+        <li><%= link_to 'facebook', 'http://www.facebook.com/awesomenight', :target => '_blank' %></li>
       <% if CONFIG['email'] %>
         <li><%= link_to 'say hi', "mailto:#{CONFIG['email']}?subject:whats up!" %></li>
       <% end %>
       <li><%= link_to 'rss feed', '/posts.rss' %></li>
     </ul>
     <span class="powered-by">
-      Powered by <a href="http://github.com/natew/obtvse.git">Obtvse</a>
+      Powered by <a href="#">LPH</a>
       <% if is_admin? %> &nbsp;&middot;&nbsp; <a href="/admin">Admin</a><% end %>
   </span>
 

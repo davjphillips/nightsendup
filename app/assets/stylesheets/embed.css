@@ -9,7 +9,7 @@
 
 .gist .gist-file {
   border: 1px solid #dedede; /* gray */
-  font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
   margin-bottom: 1em;
 }
 

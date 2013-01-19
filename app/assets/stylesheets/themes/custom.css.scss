@@ -1,1 +1,37 @@
 /* Insert your custom theme here */
+
+.img-circle {
+-webkit-border-radius: 500px;
+-moz-border-radius: 500px;
+border-radius: 500px;
+margin-bottom:-15px;
+}
+.topBorder {
+  background-image: url(/assets/fb-sprite.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 1px;
+  height: 3px;
+  width: 632px;
+}
+.spinePointer {
+  background-image: url(/assets/fb-sprite.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -65px -46px;
+  height: 15px;
+  left: 36px;
+  position: absolute;
+  top: 36px;
+  width: 19px;
+  z-index: 3;
+}
+.bottomBorder {
+background-image: url(/assets/fb-sprite.png);
+background-repeat: no-repeat;
+background-size: auto;
+background-position: 0 -67px;
+height: 4px;
+width: 632px;
+margin-bottom:10px;
+}
